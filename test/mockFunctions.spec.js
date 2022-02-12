@@ -1,26 +1,11 @@
 const mockFunctions = require('../src/mockFunctions');
 
-/*
-Criamos uma série de funções com eficiência duvidosa.
-Elas estão no arquivo 'src/mockFunctions.js'.
-Crie mock functions para cada uma das operações de modo que os cálculos sejam feitos corretamente,
-não como estão sendo feitos no arquivo original.
-A idéia é que os novos testes sobrescrevam os testes
-importados apenas na suite de testes abaixo.
-
-Importante! A correção de código via mock functions não é uma aplicação usual.
-O foco aqui é a utilização de mock functions.
-
-ATENÇÃO!!! Edite apenas este arquivo. Não altere os arquivos da pasta 'src'.
-*/
-
 describe('3 - Verifica as funções e os mocks', () => {
   mockFunctions.add = jest.fn((a, b) => a + b);
   mockFunctions.subtract = jest.fn((a, b) => a - b);
   mockFunctions.multiply = jest.fn((a, b) => a * b);
   mockFunctions.divide = jest.fn((a, b) => a / b);
   mockFunctions.power = jest.fn((a, b) => a ** b);
-  // https://www.ti-enxame.com/pt/javascript/qual-e-funcao-fatorial-mais-rapida-em-javascript/970711875/
   const factorialNumber = (n) => ((n > 0) ? n * factorialNumber(n - 1) : 1);
   mockFunctions.factorial = jest.fn(factorialNumber);
 
