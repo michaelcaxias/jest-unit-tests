@@ -4,11 +4,14 @@
 
 Projeto feito de forma individual durante o curso da [Trybe](https://www.betrybe.com/) com o objetivo de implementar testes unitários para funções já existentes do Javascript.
 
-## 🔧 Funçoes
+## ⭐ Habilidades
 
 - Utilizar as habilidades de Javascript e Jest.
-- Criar testes unitários para aplicações funcionais.
 - Utilizar mocks para testar funções que dependem de outras funções e API's.
+
+## 🔧 Funçoes
+
+- Criar testes unitários para aplicações funcionais.
 
 ## Como iniciar
 
