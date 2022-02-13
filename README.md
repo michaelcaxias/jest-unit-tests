@@ -13,7 +13,7 @@ Projeto feito de forma individual durante o curso da [Trybe](https://www.betrybe
 
 - Criar testes unitários para aplicações funcionais.
 
-## Como iniciar
+## 💻 Como iniciar
 
 1. Faça o clone do projeto
 2. Entre no Visual Studio Code
